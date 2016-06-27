@@ -101,7 +101,7 @@ class WaterFallLayout: UICollectionViewLayout {
                 currentColum = maxYOfColums.indexOf(minMaxY)!
             }
             
-            //            currentColum = currentIndex % numberOfColums
+            //currentColum = currentIndex % numberOfColums
             x = itemSpace + CGFloat(currentColum) * (width + itemSpace)
             // 每个cell的y
             y = itemSpace + maxYOfColums[currentColum]
@@ -112,6 +112,7 @@ class WaterFallLayout: UICollectionViewLayout {
             // 设置用于瀑布流效果的attributes的frame
             attributes.frame = CGRect(x: x, y: y, width: width, height: height)
             attributesArray.append(attributes)
+            print(maxYOfColums)
             
         }
         

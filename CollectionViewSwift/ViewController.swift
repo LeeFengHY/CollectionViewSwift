@@ -31,9 +31,9 @@ class ViewController: UIViewController,WaterFallLayoutDelegate,UICollectionViewD
         //线性
         //setLineLayout()
         //瀑布流
-        setWaterFallLayout()
+        //setWaterFallLayout()
         //圆型
-        //setCirCleLayout()
+        setCirCleLayout()
     }
     
     func setLineLayout(){
@@ -46,7 +46,7 @@ class ViewController: UIViewController,WaterFallLayoutDelegate,UICollectionViewD
     func setWaterFallLayout(){
         let layout = WaterFallLayout()
         layout.delegate = self
-        layout.numberOfColums = 5
+        layout.numberOfColums = 4
         collection?.collectionViewLayout = layout
         collection?.backgroundColor = UIColor.blackColor()
         flag = "YES"
@@ -72,7 +72,8 @@ class ViewController: UIViewController,WaterFallLayoutDelegate,UICollectionViewD
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cellIdentifier", forIndexPath: indexPath)
-        
+        let label = cell.contentView.viewWithTag(1000) as? UILabel
+        label!.text = String(indexPath.row)
         return cell
     }
     
