@@ -15,9 +15,9 @@
 		EE1F9A6B1D1D1117009BD621 /* LineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F9A6A1D1D1117009BD621 /* LineLayout.swift */; };
 		EE1F9A6D1D1D112D009BD621 /* WaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F9A6C1D1D112D009BD621 /* WaterFallLayout.swift */; };
 		EE1F9A6F1D1D113A009BD621 /* CirCleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F9A6E1D1D113A009BD621 /* CirCleLayout.swift */; };
-		EEBF04FB1D21247A00B40162 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEBF04F81D21247A00B40162 /* 1.jpg */; };
-		EEBF04FC1D21247A00B40162 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEBF04F91D21247A00B40162 /* 2.jpg */; };
-		EEBF04FD1D21247A00B40162 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEBF04FA1D21247A00B40162 /* 3.jpg */; };
+		EEBF05021D21260600B40162 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEBF04FF1D21260600B40162 /* 1.jpg */; };
+		EEBF05031D21260600B40162 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEBF05001D21260600B40162 /* 2.jpg */; };
+		EEBF05041D21260600B40162 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEBF05011D21260600B40162 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		EE1F9A6A1D1D1117009BD621 /* LineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineLayout.swift; sourceTree = "<group>"; };
 		EE1F9A6C1D1D112D009BD621 /* WaterFallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterFallLayout.swift; sourceTree = "<group>"; };
 		EE1F9A6E1D1D113A009BD621 /* CirCleLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirCleLayout.swift; sourceTree = "<group>"; };
-		EEBF04F81D21247A00B40162 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		EEBF04F91D21247A00B40162 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		EEBF04FA1D21247A00B40162 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		EEBF04FF1D21260600B40162 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EEBF05001D21260600B40162 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		EEBF05011D21260600B40162 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +50,7 @@
 		EE1F9A4C1D1CCBC4009BD621 = {
 			isa = PBXGroup;
 			children = (
+				EEBF04FE1D21260600B40162 /* images */,
 				EE1F9A571D1CCBC6009BD621 /* CollectionViewSwift */,
 				EE1F9A561D1CCBC4009BD621 /* Products */,
 			);
@@ -71,7 +72,6 @@
 				EE1F9A6A1D1D1117009BD621 /* LineLayout.swift */,
 				EE1F9A6C1D1D112D009BD621 /* WaterFallLayout.swift */,
 				EE1F9A6E1D1D113A009BD621 /* CirCleLayout.swift */,
-				EEBF04EB1D21242D00B40162 /* images */,
 				EE1F9A5C1D1CCBC7009BD621 /* Main.storyboard */,
 				EE1F9A5F1D1CCBC8009BD621 /* Assets.xcassets */,
 				EE1F9A611D1CCBC8009BD621 /* LaunchScreen.storyboard */,
@@ -80,15 +80,14 @@
 			path = CollectionViewSwift;
 			sourceTree = "<group>";
 		};
-		EEBF04EB1D21242D00B40162 /* images */ = {
+		EEBF04FE1D21260600B40162 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				EEBF04F81D21247A00B40162 /* 1.jpg */,
-				EEBF04F91D21247A00B40162 /* 2.jpg */,
-				EEBF04FA1D21247A00B40162 /* 3.jpg */,
+				EEBF04FF1D21260600B40162 /* 1.jpg */,
+				EEBF05001D21260600B40162 /* 2.jpg */,
+				EEBF05011D21260600B40162 /* 3.jpg */,
 			);
-			name = images;
-			path = images/images;
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE1F9A631D1CCBC8009BD621 /* LaunchScreen.storyboard in Resources */,
-				EEBF04FB1D21247A00B40162 /* 1.jpg in Resources */,
-				EEBF04FC1D21247A00B40162 /* 2.jpg in Resources */,
-				EEBF04FD1D21247A00B40162 /* 3.jpg in Resources */,
+				EEBF05021D21260600B40162 /* 1.jpg in Resources */,
+				EEBF05031D21260600B40162 /* 2.jpg in Resources */,
+				EEBF05041D21260600B40162 /* 3.jpg in Resources */,
 				EE1F9A601D1CCBC8009BD621 /* Assets.xcassets in Resources */,
 				EE1F9A5E1D1CCBC7009BD621 /* Main.storyboard in Resources */,
 			);
