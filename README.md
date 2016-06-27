@@ -97,6 +97,6 @@ class ViewController: UIViewController,WaterFallLayoutDelegate,UICollectionViewD
 > <font color = #ffb200>有任何建议或想法请加QQ:578545715,你的点赞是我前行最大动力~!</font>
 
 ###效果图
-![image](https://github.com/LeeFengHY/CollectionViewSwift/raw/master/images/1.jpg)
-![image](https://github.com/LeeFengHY/CollectionViewSwift/raw/master/images/2.jpg)
-![image](https://github.com/LeeFengHY/CollectionViewSwift/raw/master/images/3.jpg)
+![image](https://github.com/LeeFengHY/CollectionViewSwift/raw/master/images/images/1.jpg)
+![image](https://github.com/LeeFengHY/CollectionViewSwift/raw/master/images/images/2.jpg)
+![image](https://github.com/LeeFengHY/CollectionViewSwift/raw/master/images/images/3.jpg)
